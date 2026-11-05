@@ -1,4 +1,4 @@
-# Mouse Dead
+# Dead Mouse
 
 I currently I have wireless mouse and I forget to charge it.
 
