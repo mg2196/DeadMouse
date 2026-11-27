@@ -16,6 +16,12 @@ Thinking like a scheduled task that calls a script tht checks battery level and 
 
 I already did some testing with Get-PNPDevice but I used AI for the specific commandlets parameters. So that must be forgotten
 
+# Components
+
+This will be a single powersehll script.
+
+1. Ask 
+
 # Time Limitation
 I am chalanging myself to track time on this project and keep the total syntax time under 1 hr.
 
@@ -25,3 +31,11 @@ Time tracking starts now... closing
 We will need to use get-pnp
 
 (Get-PnpDevice -Class 'Bluetooth' -FriendlyName 'MX Anywhere 2' | Get-PnpDeviceProperty -KeyName '{104EA319-6EE2-4701-BD47-8DDBF425BBE5} 2').Data
+
+# To-Do
+
+- [ ] Build out battery level selection
+- [ ] Build implmentation to drop selected level into layed down script
+- [ ] Build out scheduled task
+- [ ] Stop Using Input Variable
+- [ ] Build Detection to run as local user (not accessing hard coded $osdrive\Scripts)
